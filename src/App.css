@@ -1,38 +1,185 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: hsl(210, 60%, 98%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 680px;
+  max-height: 820px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 25px 25px 5px;
+  overflow: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.upper {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.title {
+  color: hsl(223, 62%, 11%);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.info {
+  display: flex;
+  gap: 10px
+}
+
+.count {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  border-radius: 5px;
+  font-weight: 900;
+  font-size: 16px;
+  min-width: 32px;
+  max-height: 30px;
   color: white;
+  background-color: hsl(219, 85%, 26%);
 }
 
-.App-link {
-  color: #61dafb;
+.mark-read {
+  all: unset;
+  cursor: pointer;
+  color: gray;
+  white-space: nowrap;
+  font-weight: 500;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.mark-read:hover {
+  color: hsl(217, 94%, 29%);
+}
+
+.post:hover {
+  color: hsl(217, 94%, 29%);
+}
+
+.message:hover {
+  background-color: hsl(211, 68%, 94%);
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 10px;
+  padding: 15px 20px;
+  display: flex;
+}
+
+li img {
+  max-width: 40px;
+  max-height: 40px;
+  margin-right: 10px;
+}
+
+.name {
+  all: unset;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 0px 5px 4px 0px;
+}
+
+.name:hover {
+  color: hsl(219, 85%, 26%);
+}
+
+.content {
+  margin-right: 8px;
+  color: #8a8a8a;
+  font-weight: 500;
+  display: inline;
+}
+
+.time {
+  display: block;
+  color: #8a8a8a;
+  margin-top: 2px;
+  margin-bottom: 6px;
+}
+
+.unread-notification {
+  background-color: hsl(210, 60%, 98%);
+  border-radius: 10px;
+}
+
+.post {
+  margin-right: 6px;
+  color: hsl(219, 12%, 42%);
+  font-weight: 800;
+  font-size: 15px;
+  flex: 1;
+}
+
+.circle {
+  background-color: hsl(1, 90%, 64%);
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  margin-bottom: 2px;
+}
+
+.group {
+  all: unset;
+  cursor: pointer;
+  font-weight: 700;
+  margin-right: 6px;
+  font-size: 14px;
+  margin-top: 2px;
+  color: hsl(219, 85%, 26%);
+}
+
+.message {
+  padding: 15px;
+  border: solid 0.1px #8a8a8a;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #6b6767;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.commented-picture img {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+.notification-content {
+  line-height: 1.2;
+  flex: 1;
+}
+
+
+@media (max-width: 425px) {
+  .container {
+    width: 100%;
+    padding: 20px 15px 5px 15px;
   }
-  to {
-    transform: rotate(360deg);
+
+  li {
+    padding: 9px 15px;
+    width: 100%;
   }
+
+  .content {
+    font-size: 16px;
+  }
+
 }
