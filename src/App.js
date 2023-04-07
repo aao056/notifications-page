@@ -14,7 +14,7 @@ function App() {
       </div>
       <ul className='notifications'>
         <li className='unread-notification'>
-        <img alt="mark-webber" src='/images/avatar-mark-webber.webp'/>
+        <img alt="mark-webber" src='images/avatar-mark-webber.webp'/>
           <div className='notification-content'>
             <a className='name' href="#">Mark Webber</a>
             <p className='content'>reacted to your recent post</p>
@@ -24,7 +24,7 @@ function App() {
           </div>
         </li>
         <li className='unread-notification'>
-          <img alt="angela-gray" src='/images/avatar-angela-gray.webp'/>
+          <img alt="angela-gray" src='images/avatar-angela-gray.webp'/>
           <div>
               <div className='notification-content'>
                 <a className='name' href='#' >Angela Gray</a>
@@ -35,7 +35,7 @@ function App() {
           </div>
         </li>
         <li className='unread-notification'>
-          <img alt="jacob-thompson" src='/images/avatar-jacob-thompson.webp'/>
+          <img alt="jacob-thompson" src='images/avatar-jacob-thompson.webp'/>
           <div>
               <div className='notification-content'>
                 <a className='name' href='#'>Jacob Thompson</a>
@@ -47,7 +47,7 @@ function App() {
           </div>
         </li>
         <li className='notification'>
-          <img alt="Rizky Hasanuddin" src='/images/avatar-rizky-hasanuddin.webp'/>
+          <img alt="Rizky Hasanuddin" src='images/avatar-rizky-hasanuddin.webp'/>
           <div>
             <div className='notification-content'>
                 <a className='name' href="#">Rizky Hasanuddin</a>
@@ -61,18 +61,18 @@ function App() {
             </div>
         </li>
         <li className='notification'>
-          <img alt="Kimberly Smith" src='/images/avatar-kimberly-smith.webp'/>
+          <img alt="Kimberly Smith" src='images/avatar-kimberly-smith.webp'/>
           <div className='notification-content'>
               <a className='name' href="#">Kimberly Smith</a>
               <p className='content'>commented on your picture</p>
               <span className='time'>1 week ago</span>
           </div>
           <div className='commented-picture'>
-                <img alt = "commented-picture" src='/images/image-chess.webp'/>
+                <img alt = "commented-picture" src='images/image-chess.webp'/>
           </div>
         </li>
         <li className='notification'>
-            <img alt="Nathan Peterson" src='/images/avatar-nathan-peterson.webp'/>
+            <img alt="Nathan Peterson" src='images/avatar-nathan-peterson.webp'/>
             <div>
               <div className='notification-content'>
                 <a href="#" className='name'>Nathan Peterson</a>
@@ -83,7 +83,7 @@ function App() {
             </div>
         </li>
         <li className='notification'>
-          <img alt="Anna Kim" src='/images/avatar-anna-kim.webp'/>
+          <img alt="Anna Kim" src='images/avatar-anna-kim.webp'/>
           <div>
               <div className='notification-content'>
                 <a className='name'>Anna Kim</a>
