@@ -18,7 +18,7 @@ function App() {
         data.map((el, index) => (
           <li key={index} 
               className={el.status === 'unread' ? 'unread-notification' : 'notification'}>
-              <img alt={el.from} src={'images/avatar-mark-webber.webp'}/>
+              <img alt={el.from} src={el.background_url}/>
               <div className='notification-content'>
                 <a className='name' href="#">{el.from}</a>
                 <p className='content'>{el.content}</p>
