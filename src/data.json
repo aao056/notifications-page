@@ -1,0 +1,58 @@
+[
+    {
+        "status": "unread",
+        "from": "Mark Webber",
+        "background_url": "images/avatar-mark-webber.webp",
+        "content": "reacted to your recent post",
+        "post": "My first tournament today!",
+        "time": "1m ago"
+    },
+    {
+        "status": "unread",
+        "from": "Angela Gray",
+        "background_url": "images/avatar-angela-gray.webp",
+        "content": "followed you",
+        "time": "5m ago"
+    },
+    {
+        "status": "unread",
+        "from": "Jacob Thompson",
+        "background_url": "images/avatar-jacob-thompson.webp",
+        "content": "has joined your group",
+        "group": "Chess Club",
+        "time": "1 day ago"
+    },
+    {
+        "status": "read",
+        "from": "Rizky Hasanuddin",
+        "background_url": "images/avatar-rizky-hasanuddin.webp",
+        "content": "sent you a private message",
+        "message": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
+        "time": "5 days ago"
+    },
+    {
+        "status": "read",
+        "from": "Kimberly Smith",
+        "background_url": "images/avatar-kimberly-smith.webp",
+        "content": "commented on your picture",
+        "group": "Chess Club",
+        "time": "1 week ago",
+        "commented_picture": "images/image-chess.webp"
+    },
+    {
+        "status": "read",
+        "from": "Nathan Peterson",
+        "background_url": "images/avatar-nathan-peterson.webps",
+        "content": "reacted to your recent post",
+        "post": "5 end-game strategies to increase your win rate",
+        "time": "2 weeks ago"
+    },
+    {
+        "status": "read",
+        "from": "Anna Kim",
+        "background_url": "images/avatar-anna-kim.webp",
+        "content": "left the group",
+        "group": "Chess Club",
+        "time": "2 weeks ago"
+    }
+]
